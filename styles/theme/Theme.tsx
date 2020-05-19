@@ -4,6 +4,10 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from '../global'
 
 
+
+
+
+
 const theme = {
     color:{
         primary:'#ffffff',
@@ -11,8 +15,13 @@ const theme = {
         background:'#e73555'
     },
     padding: {
-        contentPadding:'0px 35px'
-    }
+        widthPadding:'15%',
+        headerPadding:'10px'
+    },
+    margin: {
+        cardMargin:'15px',
+    },
+    boxShadow: '0px 3px 5px -1px rgba(196,172,196,1)'
 }
 
 export const Theme:React.FC = ({children}) => {

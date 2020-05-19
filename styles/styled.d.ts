@@ -7,6 +7,13 @@ declare module 'style-components' {
             secondary:string,
             background:string,
         },
-        contentPadding:string,
+        padding:{
+            headerPadding:string,
+            widthPadding:string,
+        },
+        margin: {
+            cardMargin:string,
+        },
+        boxShadow: string
     }
 }
